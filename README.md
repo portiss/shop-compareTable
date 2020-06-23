@@ -9,22 +9,24 @@ npm run dev
 # or
 yarn dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+I use NEXT.js to generate my project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+webpack:
+------------------------------------------------------------------------------------------------------------------------------
+I have added the following dependecies and use them:
+------------------------------------------------------------------------------------------------------------------------------
+yarn add react next react-dom redux react-redux next-redux axios redux-devtools-extension redux-thunk
+yarn add @zeit/next-sass node-sass
+yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome --> for trash icon
+------------------------------------------------------------------------------------------------------------------------------
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on ZEIT Now
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+have used some more up to date features of react (hooks perhaps)
+and HTML, (a more flexible solution than tables maybe).
+The code was well documented, thanks for all the comments,
+but in some places you could have structured it a bit better (separating actions from reducer) and not nesting your scss too much (rather use a method like BEM).
